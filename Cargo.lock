@@ -9051,11 +9051,14 @@ dependencies = [
  "axum",
  "tokio",
  "tracing",
+ "vm_utils",
  "zksync_config",
  "zksync_dal",
  "zksync_object_store",
  "zksync_prover_interface",
+ "zksync_state",
  "zksync_types",
+ "zksync_utils",
 ]
 
 [[package]]
@@ -9119,6 +9122,7 @@ dependencies = [
  "bincode",
  "chrono",
  "circuit_sequencer_api 0.1.50",
+ "multivm",
  "serde",
  "serde_with",
  "strum",
