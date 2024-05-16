@@ -9056,7 +9056,7 @@ dependencies = [
  "zksync_dal",
  "zksync_object_store",
  "zksync_prover_interface",
- "zksync_state",
+ "zksync_tee_verifier",
  "zksync_types",
  "zksync_utils",
 ]
@@ -9122,7 +9122,6 @@ dependencies = [
  "bincode",
  "chrono",
  "circuit_sequencer_api 0.1.50",
- "multivm",
  "serde",
  "serde_with",
  "strum",
