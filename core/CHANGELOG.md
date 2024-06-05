@@ -1,5 +1,28 @@
 # Changelog
 
+## [25.0.0](https://github.com/matter-labs/zksync-era/compare/core-v24.7.0...core-v25.0.0) (2024-06-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* updated boojum and nightly rust compiler ([#2126](https://github.com/matter-labs/zksync-era/issues/2126))
+
+### Features
+
+* Add metrics for transaction execution result in state keeper ([#2021](https://github.com/matter-labs/zksync-era/issues/2021)) ([dde0fc4](https://github.com/matter-labs/zksync-era/commit/dde0fc4b469474525fd5e4fd1594c3710d6d91f5))
+* **api:** Rework zks_getProtocolVersion ([#2146](https://github.com/matter-labs/zksync-era/issues/2146)) ([800b8f4](https://github.com/matter-labs/zksync-era/commit/800b8f456282685e81d3423ba3e27d017db2f183))
+* **en:** Allow recovery from specific snapshot ([#2137](https://github.com/matter-labs/zksync-era/issues/2137)) ([ac61fed](https://github.com/matter-labs/zksync-era/commit/ac61fedb5756ed700e35f231a364b9c933423ab8))
+* **node-framework:** Add Main Node Client layer ([#2132](https://github.com/matter-labs/zksync-era/issues/2132)) ([927d842](https://github.com/matter-labs/zksync-era/commit/927d8427e05b6d1a3aa9a63ee8e0db4fb1b82094))
+* **toolbox:** add zk_toolbox ci ([#1985](https://github.com/matter-labs/zksync-era/issues/1985)) ([4ab4922](https://github.com/matter-labs/zksync-era/commit/4ab492201a1654a254c0b14a382a2cb67e3cb9e5))
+* updated boojum and nightly rust compiler ([#2126](https://github.com/matter-labs/zksync-era/issues/2126)) ([9e39f13](https://github.com/matter-labs/zksync-era/commit/9e39f13c29788e66645ea57f623555c4b36b8aff))
+* **vm-runner:** shadow protective reads using VM runner ([#2017](https://github.com/matter-labs/zksync-era/issues/2017)) ([1402dd0](https://github.com/matter-labs/zksync-era/commit/1402dd054e3248de55bcc6899bb58a2cfe900473))
+
+
+### Bug Fixes
+
+* **en:** Fix transient error detection in consistency checker ([#2140](https://github.com/matter-labs/zksync-era/issues/2140)) ([38fdfe0](https://github.com/matter-labs/zksync-era/commit/38fdfe083f61f5aad11b5a0efb41215c674f3186))
+* **en:** Remove L1 client health check ([#2136](https://github.com/matter-labs/zksync-era/issues/2136)) ([49198f6](https://github.com/matter-labs/zksync-era/commit/49198f695a93d24a5e2d37a24b2c5e1b6c70b9c5))
+
 ## [24.7.0](https://github.com/matter-labs/zksync-era/compare/core-v24.6.0...core-v24.7.0) (2024-06-03)
 
 
